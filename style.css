@@ -1,0 +1,120 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: 0;
+    /* background-color: #102112; */
+    background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(43,87,48,1) 62%, rgba(16,33,18,1) 100%);
+
+    color: white;
+    /* animation-name: example;
+  animation-duration: 14s; */
+}
+img.computericon,img.playericon{
+    width: 20vh;
+    height: auto;
+}
+.play{
+    display: flex;
+    align-items: center;
+}
+p{
+    font-weight: bolder;
+}
+.score {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.score .player-score,.computer-score{
+    margin: auto;
+}
+
+.intro{
+    text-align: center;
+    margin-bottom: 8vh;
+}
+
+h4{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.computerpic , .playerpic{
+    margin: auto;
+}
+.playerpic{
+    transform: rotate(180deg);
+    transform: rotateY(180deg);
+}
+.options{
+    display: flex;
+
+justify-content: center;
+}
+button{
+    /* justify-content: space-around; */
+   font-weight: bolder;
+    margin: 15px;
+background: none;
+border: none;
+background-color:rgb(44, 84, 44);
+color: white;
+font-size: large;
+border-radius: 5px;
+padding: 10px;
+font-family: 'Courier New', Courier, monospace;
+cursor: pointer;
+}
+
+ 
+ 
+  .score{
+    background-color: rgb(44, 84, 44);
+    /* background-color: rgb(230, 206, 50); */
+    /* background: rgba(0, 0, 0, 0);
+  backdrop-filter: saturate(180%) blur(10px); */
+    color:white;
+    border-radius: 20px;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  }
+ 
+
+  /* @keyframes example {
+    0%   {background-color:102112; left:0px; top:0px;}
+    25%  {background-color:102112; left:200px; top:0px;}
+    50%  {background-color:102112; left:200px; top:200px;}
+    75%  {background-color:rgb(23, 43, 23); left:0px; top:200px;}
+    100% {background-color:102112; left:0px; top:0px;}
+  } */
+  button.reset{
+    background-color: rgb(213, 189, 32);
+    color: black;
+    font-weight:bolder;
+    margin: auto;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  button.rock:hover{
+    background-color: grey;
+    color:white;
+  }
+  button.paper:hover{
+    background-color:white;
+    color:black;
+  }
+  button.scissor:hover{
+    background-color: red;
+  }
+  button.reset:hover{
+    background-color: red;
+    color:white;
+  }
